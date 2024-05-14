@@ -42,13 +42,7 @@
         "axisLine": {
             "show": true,
             "lineStyle": {
-                "color": "#666666"
-            }
-        },
-        "axisTick": {
-            "show": false,
-            "lineStyle": {
-                "color": "#333"
+                "color": "#212121"
             }
         },
         "axisLabel": {
@@ -203,7 +197,7 @@
             },
             "crossStyle": {
                 "color": "#212121",
-                "width": 1
+                "width": 2
             }
         }
     },
