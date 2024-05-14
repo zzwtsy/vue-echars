@@ -13,9 +13,11 @@ import { Panel } from 'roku-ui';
 import { timeConverter } from '../../utils';
 import Chart from './Chart';
 import { BarSeriesDataType } from '../../types';
-import { ComposeOption } from 'echarts/core';
-import { TopLevelFormatterParams } from 'echarts/types/dist/shared.js';
-import { CallbackDataParams } from 'echarts/types/dist/shared.js';
+import { ComposeOption } from 'echarts/types/dist/shared.js';
+import {
+  TopLevelFormatterParams,
+  CallbackDataParams,
+} from 'echarts/types/dist/shared.js';
 
 type EChartsOption = ComposeOption<
   | TooltipComponentOption
