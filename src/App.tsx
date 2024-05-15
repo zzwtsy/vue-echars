@@ -86,7 +86,7 @@ export default function App() {
         }
         main={<Dashboard gistIdOrUrl={gistIdOrUrl} />}
         footer={
-          <Footer border style={{ height: 50 }}>
+          <Footer border style={{ height: 50, borderBottom: "none" }}>
             <span style={{ margin: "0 auto" }}>
               Thanks{" "}
               <a href="https://wakatime.com" target="_blank">
